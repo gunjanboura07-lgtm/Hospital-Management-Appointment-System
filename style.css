@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/* HERO */
+
+.hero {
+
+    background:
+    url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+
+    padding: 100px 20px;
+
+    text-align: center;
+}
+
+.hero h1 {
+
+    font-size: 45px;
+
+    font-weight: bold;
+}
+
+.hero p {
+
+    font-size: 20px;
+}
+
+
+/* SECTION */
+
+.section {
+    padding: 50px 0;
+}
+
+
+/* CARDS */
+
+.card {
+
+    border: none;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.card img {
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.card:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 25px;
+}
+
+
+/* FORMS */
+
+input, select {
+
+    border-radius: 8px !important;
+
+    padding: 10px;
+}
+
+input:focus,
+select:focus {
+
+    border-color: #0d6efd;
+
+    box-shadow: 0 0 5px rgba(13,110,253,0.5);
+}
+
+
+/* MESSAGES */
+
+#loginMsg,
+#medMsg,
+#labMsg {
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+    color: green;
+}
+
+
+/* FOOTER */
+
+footer {
+
+    margin-top: 40px;
+
+    font-size: 14px;
+}
